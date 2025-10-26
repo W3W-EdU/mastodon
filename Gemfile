@@ -29,7 +29,7 @@ gem 'browser'
 gem 'charlock_holmes', '~> 0.7.7'
 gem 'chewy', '~> 7.3'
 gem 'devise', '~> 4.9'
-gem 'devise-two-factor'
+gem 'devise-two-factor', '>= 6.2.0'
 
 group :pam_authentication, optional: true do
   gem 'devise_pam_authenticatable2', '~> 9.2'
@@ -85,7 +85,7 @@ gem 'sidekiq', '~> 6.5'
 gem 'sidekiq-bulk', '~> 0.2.0'
 gem 'sidekiq-scheduler', '~> 5.0'
 gem 'sidekiq-unique-jobs', '~> 7.1'
-gem 'simple_form', '~> 5.2'
+gem 'simple_form', '~> 5.4', '>= 5.4.0'
 gem 'simple-navigation', '~> 4.4'
 gem 'stoplight', '~> 4.1'
 gem 'strong_migrations'
@@ -227,4 +227,4 @@ gem 'rubyzip', '~> 2.3'
 
 gem 'hcaptcha', '~> 7.1'
 
-gem 'mail', '~> 2.8'
+gem 'mail', '~> 2.9', '>= 2.9.0'
