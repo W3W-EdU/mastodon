@@ -184,7 +184,7 @@ group :development do
 
   # Security analysis CLI tools
   gem 'brakeman', '~> 6.0', require: false
-  gem 'bundler-audit', '~> 0.9', require: false
+  gem 'bundler-audit', '~> 0.9', '>= 0.9.3', require: false
 
   # Linter CLI for HAML files
   gem 'haml_lint', require: false
